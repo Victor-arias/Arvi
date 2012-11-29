@@ -35,12 +35,12 @@ if($this->countModules('lateral')) $lateral = true;
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="nav-bar">
-        <jdoc:include type="modules" name="top-bar" style="xhtml" />
+    <div class="nav-bar">
+          <jdoc:include type="modules" name="top-bar" style="xhtml" />
       </div>
+    <div class="container">
       <header>
-          <jdoc:include type="modules" name="header" style="none" />
+          <jdoc:include type="modules" name="header" style="xhtml" />
       </header>
       <nav>
         <jdoc:include type="modules" name="menu" style="none" />

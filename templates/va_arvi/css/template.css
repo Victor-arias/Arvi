@@ -1,4 +1,14 @@
-html { 
+body
+{
+	background: transparent;
+}
+header
+{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+html
+{ 
 	background: url(../images/background_1.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -6,4 +16,84 @@ html {
 	background-size: cover;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background_1.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background_1.jpg', sizingMethod='scale')";
+}
+nav
+{
+	overflow: hidden;
+}
+nav ul li
+{
+	float: left;
+	text-align: center;
+}
+.buscador.moduletable
+{
+	float: right;
+	padding: 100px 0 55px;
+}
+.buscador input
+{
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+.buscador .button
+{
+	background: #e8e8e8;
+	color: #707070;
+	padding: 10px 20px;
+}
+.buscador .button:hover
+{
+	background: #707070;
+	box-shadow: inset #FFF 1px 1px 1px;
+	color: #e8e8e8;
+}
+.buscador .inputbox
+{
+	width: 230px;	
+}
+.buscador.search
+{
+	background: #FFF;
+	border: thin solid rgba(255, 255, 255, 0.2);
+	padding: 3px;
+}
+.logo_arvi.moduletable
+{
+	float: left;
+}
+.nav
+{
+	margin-bottom: 0;
+}
+.nav-bar
+{
+	background: #1a4724; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1a4724 30%, #1d4724 40%, #1f7330 50%, #1d7330 60%, #1a4724 70%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(30%,#1a4724), color-stop(40%,#1d4724), color-stop(50%,#1f7330), color-stop(60%,#1d7330), color-stop(70%,#1a4724)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1a4724 30%,#1d4724 40%,#1f7330 50%,#1d7330 60%,#1a4724 70%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1a4724 30%,#1d4724 40%,#1f7330 50%,#1d7330 60%,#1a4724 70%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1a4724 30%,#1d4724 40%,#1f7330 50%,#1d7330 60%,#1a4724 70%); /* IE10+ */
+	background: linear-gradient(to right,  #1a4724 30%,#1d4724 40%,#1f7330 50%,#1d7330 60%,#1a4724 70%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4724', endColorstr='#1a4724',GradientType=1 ); /* IE6-9 */
+	border-bottom: 5px solid #1a4724;
+	padding-top: -40px;
+}
+.nav-bar .nav li
+{
+	float: left;
+}
+.nav-bar .nav li a
+{
+	color: #FFF;
+	font-size: .71em;
+	padding: 8px;
+}
+.nav-bar .nav li a:hover
+{
+	background: #FFF;
+	color: #000;
 }
