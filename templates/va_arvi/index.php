@@ -33,6 +33,7 @@ if($this->countModules('lateral')) $lateral = true;
     <![endif]-->
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/bootstrap/bootstrap.min.js"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/va_arvi.js"></script>
   </head>
   <body>
     <div class="nav-bar">
@@ -42,7 +43,7 @@ if($this->countModules('lateral')) $lateral = true;
       <header>
           <jdoc:include type="modules" name="header" style="xhtml" />
       </header>
-      <nav>
+      <nav class="container">
         <jdoc:include type="modules" name="menu" style="none" />
       </nav>
       <section id="content" <?php if($home) echo"class='home'" ?>>
@@ -54,7 +55,7 @@ if($this->countModules('lateral')) $lateral = true;
           <jdoc:include type="modules" name="top" style="none" />
         </div>
         <div id="middle">
-          <jdoc:include type="modules" name="middle" style="none" />
+          <jdoc:include type="modules" name="middle" style="xhtml" />
         </div> 
         <div id="bottom">
           <jdoc:include type="modules" name="bottom" style="xhtml" />
@@ -71,10 +72,13 @@ if($this->countModules('lateral')) $lateral = true;
         </div>
       <?php endif; ?>
       </section>
-      <footer>
-        <jdoc:include type="modules" name="footer" style="none" />
-      </footer>
     </div>
+    <footer>
+      <div class="container">
+        <jdoc:include type="modules" name="footer" style="none" />
+        <jdoc:include type="modules" name="logos" style="none" />
+      </div>
+    </footer>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-__________-1']);

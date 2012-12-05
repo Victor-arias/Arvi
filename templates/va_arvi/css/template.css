@@ -64,6 +64,14 @@ body
 {
 	background: transparent;
 }
+footer
+{
+	background: url('../images/footer.png') repeat-x;
+	border-bottom: 30px solid #076c6e;
+	height: 225px;
+	margin-top: 30px;
+	padding: 60px 0 15px;
+}
 header
 {
 	font-family: 'homizioregular', sans-serif;
@@ -74,10 +82,11 @@ header
 header h1
 {
 	color: #FFF;
+	margin: 0;
 }
 html
 { 
-	background: url(../images/background_1.jpg) no-repeat center center fixed; 
+	background: url(../images/background_1.jpg) no-repeat top center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -87,12 +96,89 @@ html
 }
 nav
 {
+	-moz-transition: border .3s ease-in;
+	-o-transition: border .3s ease-in;
+	-webkit-transition: border .3s ease-in;
+	transition: all .3s ease-in;
+	border-bottom: 12px solid #EB7005;
 	overflow: hidden;
 }
-nav ul li
+nav ul.menu
 {
+	overflow: hidden;
+}
+nav ul.menu li
+{
+	background: #FFF;
+	border-right: thin solid #c9c9c9;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	float: left;
 	text-align: center;
+	/*width: 12.39%;*/
+	width: 12.5%;
+}
+nav ul.menu li a
+{
+	background: url(../images/iconos_menu.png) no-repeat left top;
+	color: #7a7a7a;
+	display: table-cell !important;
+	height: 30px;
+	padding: 70px 5% 18px;
+	font-weight: lighter;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+	-moz-transition: padding-bottom .3s ease-in;
+	-o-transition: padding-bottom .3s ease-in;
+	-webkit-transition: padding-bottom .3s ease-in;
+	transition: padding-bottom .3s ease-in;
+	vertical-align: middle;
+	width: 120px;
+}
+nav ul.menu li:nth-child(1) a
+{
+	background-position: -10px top;
+}
+nav ul.menu li:nth-child(2) a
+{
+	background-position: -155px top;
+}
+nav ul.menu li:nth-child(3) a
+{
+	background-position: -304px top;
+}
+nav ul.menu li:nth-child(4) a
+{
+	background-position: -448px top;
+}
+nav ul.menu li:nth-child(5) a
+{
+	background-position: -591px top;
+}
+nav ul.menu li:nth-child(6) a
+{
+	background-position: -741px top;
+}
+nav ul.menu li:nth-child(7) a
+{
+	background-position: -880px top;
+}
+nav ul.menu li:nth-child(8) a
+{
+	background-position: -1028px top;
+}
+nav ul.menu li.active a
+{
+	background-color: #eb7005;
+	color: #FFF;
+}
+nav ul.menu li a:hover
+{
+	background-color: #F0F0F0;
+	color: #7a7a7a;
 }
 .buscador.moduletable
 {
@@ -129,15 +215,102 @@ nav ul li
 {
 	width: 230px;	
 }
+.buscador .inputbox:focus
+{
+	box-shadow: 0px 0px 5px #1F7330;
+}
 .buscador.search
 {
 	background: #FFF;
 	border: thin solid rgba(255, 255, 255, 0.2);
 	padding: 3px;
 }
+.f-nav
+{
+	padding-top: 120px;
+}
+.f-nav nav
+{
+	border-bottom: 6px solid #EB7005;
+	position: fixed;
+	top: 0;
+	z-index: 9999; 
+}
+.f-nav nav ul li a
+{
+	background: #FFF; 
+	padding: 9px 5%;
+}
+.gkTabsItem
+{
+	background: #2b382a;
+}
+.gkTabsWrap.vertical ol
+{
+	background: none !important;
+	border: none;
+	height: auto;
+	overflow: hidden;
+	padding-top: 2px !important;
+}
+.gkTabsWrap.vertical ol li
+{
+	background: rgb(150, 158, 103);
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #FFF;
+	border-radius: 0;
+	font-family: 'homiziolight', sans-serif;
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin-right: 1% !important;
+	padding: 20px 2% 15px !important;
+	text-align: center;
+	text-shadow: none;
+	text-transform: uppercase;
+	width: 24%;
+}
+.gkTabsWrap.vertical ol li.active
+{
+	background: #2b382a;
+}
+.gkTabsWrap.vertical ol li:hover
+{
+	background: rgb(150, 170, 103);
+}
+.gkTabsWrap.vertical ol li:last-child
+{
+	margin-right: 0 !important;
+}
 .logo_arvi.moduletable
 {
 	float: left;
+	position: absolute;
+	top: 0;
+}
+.moduletable.actividades
+{
+	background: #e8e7e3;
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+.moduletable.actividades h3
+{
+	background: #1d5729;
+	border-bottom: 4px solid #164521;
+	border-left: 15px solid #164521;
+	color: #FFF;
+	font-family: 'homiziolight', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0 10px;
+	position: absolute;
+	top: -25px;
+	z-index: 1;
 }
 .nav
 {
@@ -169,6 +342,128 @@ nav ul li
 }
 .nav-bar .nav li a:hover
 {
-	background: #1f7330;
-	/*color: #000;*/
+	background: rgba(255, 255, 255, 0.2);
+}
+.slide-desc-text .slide-title a
+{
+	color: #FFF;
+	display: block;
+	font-family: 'homiziolight', sans-serif;
+	font-size: .8em;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.slide-desc-text .slide-text a
+{
+	color: #FFF;
+	font-size: 0.9em;
+	line-height: 1;
+	text-align: justify;
+}
+#banner .navigation-container .prev-button
+{
+	left: -35px;
+}
+#banner .navigation-container .next-button
+{
+	right: -35px;
+}
+#banner
+{
+	background: #1d5729;
+	border-bottom: 6px solid #68872e;
+	margin-bottom: 15px;
+}
+#middle
+{
+	margin-top: 40px;
+}
+@media (min-width: 1200px) {
+	/*nav ul.menu li:first-child
+	{
+		width: 12.5%;
+	}*/
+	nav ul.menu li a
+	{
+		width: 145px;
+	}
+	nav ul.menu li:nth-child(1) a
+	{
+		background-position: left top;
+	}
+	nav ul.menu li:nth-child(2) a
+	{
+		background-position: -145px top;
+	}
+	nav ul.menu li:nth-child(3) a
+	{
+		background-position: -294px top;
+	}
+	nav ul.menu li:nth-child(4) a
+	{
+		background-position: -438px top;
+	}
+	nav ul.menu li:nth-child(5) a
+	{
+		background-position: -578px top;
+	}
+	nav ul.menu li:nth-child(6) a
+	{
+		background-position: -731px top;
+	}
+	nav ul.menu li:nth-child(7) a
+	{
+		background-position: -870px top;
+	}
+	nav ul.menu li:nth-child(8) a
+	{
+		background-position: -1018px top;
+	}	
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	/*nav ul.menu li
+	{
+		width: 12.35%;
+	}*/
+	nav ul.menu li:first-child
+	{
+		width: 12.45%;
+	}
+	nav ul.menu li a
+	{
+		width: 99px;
+	}	
+	nav ul.menu li:nth-child(1) a
+	{
+		background-position: -20px top;
+	}
+	nav ul.menu li:nth-child(2) a
+	{
+		background-position: -165px top;
+	}
+	nav ul.menu li:nth-child(3) a
+	{
+		background-position: -314px top;
+	}
+	nav ul.menu li:nth-child(4) a
+	{
+		background-position: -458px top;
+	}
+	nav ul.menu li:nth-child(5) a
+	{
+		background-position: -610px top;
+	}
+	nav ul.menu li:nth-child(6) a
+	{
+		background-position: -751px top;
+	}
+	nav ul.menu li:nth-child(7) a
+	{
+		background-position: -890px top;
+	}
+	nav ul.menu li:nth-child(8) a
+	{
+		background-position: -1038px top;
+	}
 }

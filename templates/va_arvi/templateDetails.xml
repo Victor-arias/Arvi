@@ -34,5 +34,6 @@
 		<position>middle</position>
 		<position>bottom</position>
 		<position>footer</position>
+		<position>logos</position>
 	</positions>
 </extension>
