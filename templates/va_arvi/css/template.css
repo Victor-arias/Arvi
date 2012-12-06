@@ -101,13 +101,13 @@ nav
 	-webkit-transition: border .3s ease-in;
 	transition: all .3s ease-in;
 	border-bottom: 12px solid #EB7005;
-	overflow: hidden;
 }
-nav ul.menu
+nav ul#icemegamenu
 {
+	margin: 0;
 	overflow: hidden;
 }
-nav ul.menu li
+nav ul#icemegamenu > li
 {
 	background: #FFF;
 	border-right: thin solid #c9c9c9;
@@ -116,11 +116,11 @@ nav ul.menu li
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	float: left;
+	list-style: none;
 	text-align: center;
-	/*width: 12.39%;*/
 	width: 12.5%;
 }
-nav ul.menu li a
+nav ul#icemegamenu > li > a
 {
 	background: url(../images/iconos_menu.png) no-repeat left top;
 	color: #7a7a7a;
@@ -130,6 +130,7 @@ nav ul.menu li a
 	font-weight: lighter;
 	line-height: 1;
 	text-align: center;
+	text-decoration: none;
 	text-transform: uppercase;
 	-moz-transition: padding-bottom .3s ease-in;
 	-o-transition: padding-bottom .3s ease-in;
@@ -138,47 +139,74 @@ nav ul.menu li a
 	vertical-align: middle;
 	width: 120px;
 }
-nav ul.menu li:nth-child(1) a
+nav ul#icemegamenu > li:nth-child(1) > a
 {
 	background-position: -10px top;
 }
-nav ul.menu li:nth-child(2) a
+nav ul#icemegamenu > li:nth-child(2) > a
 {
 	background-position: -155px top;
 }
-nav ul.menu li:nth-child(3) a
+nav ul#icemegamenu > li:nth-child(3) > a
 {
 	background-position: -304px top;
 }
-nav ul.menu li:nth-child(4) a
+nav ul#icemegamenu > li:nth-child(4) > a
 {
 	background-position: -448px top;
 }
-nav ul.menu li:nth-child(5) a
+nav ul#icemegamenu > li:nth-child(5) > a
 {
 	background-position: -591px top;
 }
-nav ul.menu li:nth-child(6) a
+nav ul#icemegamenu > li:nth-child(6) > a
 {
 	background-position: -741px top;
 }
-nav ul.menu li:nth-child(7) a
+nav ul#icemegamenu > li:nth-child(7) > a
 {
 	background-position: -880px top;
 }
-nav ul.menu li:nth-child(8) a
+nav ul#icemegamenu > li:nth-child(8) > a
 {
 	background-position: -1028px top;
 }
-nav ul.menu li.active a
+nav ul#icemegamenu > li.active > a
 {
 	background-color: #eb7005;
 	color: #FFF;
 }
-nav ul.menu li a:hover
+nav ul#icemegamenu > li a:hover
 {
 	background-color: #F0F0F0;
 	color: #7a7a7a;
+}
+nav ul#icemegamenu ul.icesubMenu {
+	background: #FFF;
+	list-style: none;
+	margin: 20px 0 0 0;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	z-index: 9999;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+nav ul#icemegamenu ul.icesubMenu li
+{
+	list-style: none;
+}
+nav ul#icemegamenu ul.icesubMenu div > ul {
+	margin:0;
+	padding:0
+} 
+nav ul#icemegamenu > li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0 !important;
 }
 .buscador.moduletable
 {
@@ -236,10 +264,20 @@ nav ul.menu li a:hover
 	top: 0;
 	z-index: 9999; 
 }
-.f-nav nav ul li a
+.f-nav nav ul#icemegamenu > li > a
 {
 	background: #FFF; 
 	padding: 9px 5%;
+}
+.f-nav nav ul#icemegamenu > li.active > a
+{
+	background: #EB7005;
+	color: #FFF; 
+}
+.f-nav nav ul#icemegamenu > li > a:hover
+{
+	background-color: #F0F0F0;
+	color: #7a7a7a;
 }
 .gkTabsItem
 {
@@ -263,10 +301,10 @@ nav ul.menu li a:hover
 	color: #FFF;
 	border-radius: 0;
 	font-family: 'homiziolight', sans-serif;
-	font-size: 35px;
+	font-size: 2.14em;
 	letter-spacing: 1px;
 	margin-right: 1% !important;
-	padding: 20px 2% 15px !important;
+	padding: 20px 1% 15px !important;
 	text-align: center;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -293,9 +331,11 @@ nav ul.menu li a:hover
 .moduletable.actividades
 {
 	background: #e8e7e3;
+	box-sizing: border-box;
 	float: left;
 	padding: 15px;
 	position: relative;
+	width: 60%;
 }
 .moduletable.actividades h3
 {
@@ -315,6 +355,7 @@ nav ul.menu li a:hover
 .nav
 {
 	margin-bottom: 0;
+	position: relative;
 }
 .nav-bar
 {
@@ -340,27 +381,12 @@ nav ul.menu li a:hover
 	color: #FFF;
 	padding: 8px;
 }
-.nav-bar .nav li a:hover
+.nav-bar .nav li a:hover,
+.nav-bar .nav li.active a
 {
 	background: rgba(255, 255, 255, 0.2);
 }
-.slide-desc-text .slide-title a
-{
-	color: #FFF;
-	display: block;
-	font-family: 'homiziolight', sans-serif;
-	font-size: .8em;
-	letter-spacing: 1px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.slide-desc-text .slide-text a
-{
-	color: #FFF;
-	font-size: 0.9em;
-	line-height: 1;
-	text-align: justify;
-}
+
 #banner .navigation-container .prev-button
 {
 	left: -35px;
@@ -377,93 +403,191 @@ nav ul.menu li a:hover
 }
 #middle
 {
-	margin-top: 40px;
+	overflow: hidden;
+	padding-top: 40px;
+}
+#middle .slide-desc
+{
+	top: 76%;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#middle li:hover .slide-desc
+{
+	top: 0%;
+}
+#middle .slide-desc .slide-desc-in
+{
+	height: 100%;
+}
+#middle .slide-desc-text
+{
+	padding: 4%;
+}
+#middle .slide-desc-text .slide-title
+{
+	display: table;
+	height: 35px;
+	width: 100%;
+}
+#middle .slide-desc-text .slide-title a
+{
+	color: #FFF;
+	display: table-cell;
+	font-family: 'homiziolight', sans-serif;
+	font-size: .6em;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+#middle .slide-desc-text .slide-text a
+{
+	color: #FFF;
+	font-size: 0.9em;
+	line-height: 1;
+	text-align: justify;
+	text-decoration: none;
 }
 @media (min-width: 1200px) {
-	/*nav ul.menu li:first-child
-	{
-		width: 12.5%;
-	}*/
-	nav ul.menu li a
+	nav ul#icemegamenu li a
 	{
 		width: 145px;
 	}
-	nav ul.menu li:nth-child(1) a
+	nav ul#icemegamenu li:nth-child(1) a
 	{
 		background-position: left top;
 	}
-	nav ul.menu li:nth-child(2) a
+	nav ul#icemegamenu li:nth-child(2) a
 	{
 		background-position: -145px top;
 	}
-	nav ul.menu li:nth-child(3) a
+	nav ul#icemegamenu li:nth-child(3) a
 	{
 		background-position: -294px top;
 	}
-	nav ul.menu li:nth-child(4) a
+	nav ul#icemegamenu li:nth-child(4) a
 	{
 		background-position: -438px top;
 	}
-	nav ul.menu li:nth-child(5) a
+	nav ul#icemegamenu li:nth-child(5) a
 	{
 		background-position: -578px top;
 	}
-	nav ul.menu li:nth-child(6) a
+	nav ul#icemegamenu li:nth-child(6) a
 	{
 		background-position: -731px top;
 	}
-	nav ul.menu li:nth-child(7) a
+	nav ul#icemegamenu li:nth-child(7) a
 	{
 		background-position: -870px top;
 	}
-	nav ul.menu li:nth-child(8) a
+	nav ul#icemegamenu li:nth-child(8) a
 	{
 		background-position: -1018px top;
+	}
+	.gkTabsWrap.vertical ol li
+	{
+		font-size: 2.5em;
 	}	
 }
 @media (min-width: 768px) and (max-width: 979px) {
-	/*nav ul.menu li
+	nav ul#icemegamenu > li > a
 	{
-		width: 12.35%;
-	}*/
-	nav ul.menu li:first-child
+		font-size: 0.85em;
+	}
+	nav ul#icemegamenu li:first-child
 	{
 		width: 12.45%;
 	}
-	nav ul.menu li a
+	nav ul#icemegamenu li a
 	{
 		width: 99px;
 	}	
-	nav ul.menu li:nth-child(1) a
+	nav ul#icemegamenu li:nth-child(1) a
 	{
 		background-position: -20px top;
 	}
-	nav ul.menu li:nth-child(2) a
+	nav ul#icemegamenu li:nth-child(2) a
 	{
 		background-position: -165px top;
 	}
-	nav ul.menu li:nth-child(3) a
+	nav ul#icemegamenu li:nth-child(3) a
 	{
 		background-position: -314px top;
 	}
-	nav ul.menu li:nth-child(4) a
+	nav ul#icemegamenu li:nth-child(4) a
 	{
 		background-position: -458px top;
 	}
-	nav ul.menu li:nth-child(5) a
+	nav ul#icemegamenu li:nth-child(5) a
 	{
 		background-position: -610px top;
 	}
-	nav ul.menu li:nth-child(6) a
+	nav ul#icemegamenu li:nth-child(6) a
 	{
 		background-position: -751px top;
 	}
-	nav ul.menu li:nth-child(7) a
+	nav ul#icemegamenu li:nth-child(7) a
 	{
 		background-position: -890px top;
 	}
-	nav ul.menu li:nth-child(8) a
+	nav ul#icemegamenu li:nth-child(8) a
 	{
 		background-position: -1038px top;
 	}
+	.gkTabsWrap.vertical ol li
+	{
+		font-size: 1.7em;
+	}	
+}
+@media (max-width: 767px) { 
+	nav ul#icemegamenu > li > a
+	{
+		font-size: 0.7em;
+	}
+	nav ul#icemegamenu li a
+	{
+		width: 80px;
+	}	
+	nav ul#icemegamenu li:nth-child(1) a
+	{
+		background-position: -30px top;
+	}
+	nav ul#icemegamenu li:nth-child(2) a
+	{
+		background-position: -175px top;
+	}
+	nav ul#icemegamenu li:nth-child(3) a
+	{
+		background-position: -321px top;
+	}
+	nav ul#icemegamenu li:nth-child(4) a
+	{
+		background-position: -468px top;
+	}
+	nav ul#icemegamenu li:nth-child(5) a
+	{
+		background-position: -612px top;
+	}
+	nav ul#icemegamenu li:nth-child(6) a
+	{
+		background-position: -761px top;
+	}
+	nav ul#icemegamenu li:nth-child(7) a
+	{
+		background-position: -900px top;
+	}
+	nav ul#icemegamenu li:nth-child(8) a
+	{
+		background-position: -1048px top;
+	}
+	.gkTabsWrap.vertical ol li
+	{
+		font-size: 1.3em;
+	}	
 }

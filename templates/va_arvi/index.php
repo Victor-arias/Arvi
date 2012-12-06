@@ -24,7 +24,6 @@ if($this->countModules('lateral')) $lateral = true;
     <meta charset="utf-8">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/jquery-1.8.3.min.js"><\/script>')</script>
-    <jdoc:include type="head" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css">
@@ -34,6 +33,7 @@ if($this->countModules('lateral')) $lateral = true;
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/bootstrap.min.js"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/va_arvi.js"></script>
+    <jdoc:include type="head" />
   </head>
   <body>
     <div class="nav-bar">
