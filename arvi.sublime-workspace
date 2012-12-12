@@ -4,36 +4,100 @@
 		"selected_items":
 		[
 			[
-				"cl",
-				"clear"
+				"tex",
+				"text-decoration"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-size"
 			],
 			[
 				"margin",
+				"margin-top"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"table-c",
+				"table-cell"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ma",
 				"margin"
+			],
+			[
+				"backg",
+				"background_1"
+			],
+			[
+				"cl",
+				"clear"
 			],
 			[
 				"arti",
 				"article-info-term"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
-				"text-",
-				"text-decoration"
-			],
-			[
 				"inline",
 				"inline-block"
-			],
-			[
-				"tex",
-				"text-decoration"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"te",
@@ -46,10 +110,6 @@
 			[
 				"table",
 				"table-cell"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"in",
@@ -80,22 +140,6 @@
 				"mysql_select_db"
 			],
 			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"paddin",
-				"padding"
-			],
-			[
-				"font",
-				"font-style"
-			],
-			[
 				"padding-",
 				"padding-bottom"
 			],
@@ -108,24 +152,12 @@
 				"get_the_ID"
 			],
 			[
-				"borde",
-				"border-bottom"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"bor",
 				"border-radius"
 			],
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"t",
-				"text"
 			],
 			[
 				"fun",
@@ -143,6 +175,55 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "NOTAS\notra factura el 20 de diciembre del 16 al 31\n\n2.850.000  40%  1.140.000 - 352.964\n\n1216 Maria Nela - Convenios\n1710 Nancy Misas - Asesora\n\n",
+			"settings":
+			{
+				"buffer_size": 145,
+				"line_ending": "Unix",
+				"name": "NOTAS"
+			}
+		},
+		{
+			"file": "templates/va_arvi/templateDetails.xml",
+			"settings":
+			{
+				"buffer_size": 1283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/va_arvi/index.php",
+			"settings":
+			{
+				"buffer_size": 3973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/va_arvi/css/template.css",
+			"settings":
+			{
+				"buffer_size": 13104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/mod_icemegamenu/themes/arvi/css/arvi_icemegamenu.css",
+			"settings":
+			{
+				"buffer_size": 6845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/mod_tabs_gk5/styles/arvi.css",
+			"settings":
+			{
+				"buffer_size": 2811,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -204,6 +285,33 @@
 	},
 	"file_history":
 	[
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/modules/mod_tabs_gk5/mod_tabs_gk5.xml",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/modules/mod_tabs_gk5/styles/style1.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/modules/mod_djimageslider/assets/style.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/modules/mod_djimageslider/assets/slider.js",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/html/mod_djimageslider/actividades.php",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/modules/mod_icemegamenu/themes/arvi/css/arvi_notjs.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/js/va_arvi.js",
+		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/css/template.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/html/mod_djimageslider/destacado.php",
+		"/Users/telemedellin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/css/bootstrap-responsive.min.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/css/bootstrap.min.css",
+		"/Users/telemedellin/Desktop/VA/Herramientas Web/CSS-JS/bootstrap/css/bootstrap.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/html/mod_search/default.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/css/custom.css",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/css/mj_xhtml.css",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/resources/styles/baseStyles.css",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/index.php",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/resources/styles/reset.css",
+		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/js/imageflip.mini.js",
+		"/Users/telemedellin/Desktop/VA/Arví/Fuentes/homizio/webfontkit-20121129-184429/stylesheet.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Fuentes/homizio/webfontkit-20121129-184327/stylesheet.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/beez5/templateDetails.xml",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/css/template.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/css/ieonly.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/css/ie7only.css",
+		"/Users/telemedellin/Desktop/VA/Arví/Arvi/templates/va_arvi/css/editor.css",
 		"/Applications/MAMP/htdocs/TestDrupal/themes/bartik/bartik.info",
 		"/Applications/MAMP/htdocs/TestDrupal/themes/bartik/templates/page.tpl.php",
 		"/Applications/MAMP/htdocs/TestDrupal/themes/bartik/template.php",
@@ -227,7 +335,6 @@
 		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/css/custom.css",
 		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/css/style.css",
 		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/index.php",
-		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/va_isvimed/css/template.css",
 		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/css/mj_xhtml.css",
 		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/15s/Lluvia de sobres/js/script.js",
 		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/templates/mobile_smartphone/html/com_content/category/blog_item.php",
@@ -305,41 +412,15 @@
 		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/controller.php",
 		"/Users/telemedellin/Desktop/VA/ISVIMED/SVMD/components/com_phocadownload/phocadownload.php",
 		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/custom.css",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/wp-thumbie/wp-thumbie.php",
-		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/imagerescaler.class.php",
-		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/css/custom.css",
-		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/templates/mobile_pda/index.php",
-		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/administrator/components/com_mobilejoomla/mobilejoomla.class.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/gk_classes/gk.source.k2.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/helper.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/style1.css",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/layout.parts.php",
-		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/index.php",
-		"/Users/telemedellin/Desktop/VA/m.telemedellin.tv/Sitio/configuration.php",
-		"/Users/telemedellin/Desktop/VA/F/tkmt/tekemate/controllers/administracion/fotografia.php",
-		"/Users/telemedellin/Desktop/VA/F/tkmt/tekemate/views/tekemate/fotografia.php",
-		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/htmldenuestrosprogramas/programas.html",
-		"/Users/telemedellin/Desktop/VA/Telemedellin.tv/htmldenuestrosprogramas/nprogramas.css",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.portal.mode.4.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/mod_news_pro_gk4.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/default.portal.mode.1.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.portal.mode.1.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/content.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/mod_news_pro_gk4/tmpl/default.portal.mode.4.php",
-		"/Users/telemedellin/Desktop/untitled.html",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/themes/yamidoo_pro/index.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/youtube-sidebar-widget/youtube-sidebar-widget.php",
-		"/Users/telemedellin/Desktop/VA/Blog Noticias/Sandbox/wp-content/plugins/hey-its-a-flickr-widget/heyitsflickr.php",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/template.css",
-		"/Users/telemedellin/Desktop/VA/F/Insight/Archivos/gk_twn2/css/gk.stuff.css"
+		"/Users/telemedellin/Desktop/VA/Blog Noticias/NTM/wp-content/plugins/wp-thumbie/wp-thumbie.php"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -349,6 +430,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"!important",
+			"slide",
+			"slider",
+			"slider-d",
+			"nav",
+			"f-nav",
+			"ul.menu",
+			"foo",
+			"<li",
+			"li",
+			"724px",
+			"768px",
+			"before",
+			"img",
+			".buscador .inputbox",
+			"foot",
+			"foo",
+			"footer",
+			"shadow",
+			"pie",
+			"footer",
+			"pie",
+			"foot",
+			"shadow",
+			"940",
+			"url('",
+			"container",
 			"menu-icon",
 			"h2",
 			"blog",
@@ -449,16 +557,7 @@
 			"commen",
 			"comme",
 			"$post",
-			"post",
-			"have_",
-			"have_post",
-			"loop",
-			"more",
-			"thumbna",
-			"do_not_duplicate",
-			"Number of Pictures to Display:",
-			"console",
-			"<?php echo $img ?>"
+			"post"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -466,6 +565,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"ul#icemegamenu",
+			"url('../fonts/",
 			"http://www.telemedellin.tv/clima/",
 			"<?php echo trim($img) ?>"
 		],
@@ -478,8 +580,170 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "NOTAS",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/va_arvi/templateDetails.xml",
+					"settings":
+					{
+						"buffer_size": 1283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1245,
+								1245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/va_arvi/index.php",
+					"settings":
+					{
+						"buffer_size": 3973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1876,
+								1876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 28.0,
+						"translation.y": 178.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/va_arvi/css/template.css",
+					"settings":
+					{
+						"buffer_size": 13104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9779,
+								9779
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6044.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "modules/mod_icemegamenu/themes/arvi/css/arvi_icemegamenu.css",
+					"settings":
+					{
+						"buffer_size": 6845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3830,
+								3830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1524.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "modules/mod_tabs_gk5/styles/arvi.css",
+					"settings":
+					{
+						"buffer_size": 2811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1768.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

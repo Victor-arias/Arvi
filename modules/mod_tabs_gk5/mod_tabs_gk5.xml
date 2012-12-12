@@ -75,6 +75,7 @@
 				        <option value="style4">MOD_TABS_STYLE4</option>
 						<option value="style5">MOD_TABS_STYLE5</option>
 				        <option value="style6">MOD_TABS_STYLE6</option>
+				        <option value="arvi">ARVI</option>
 				</field>
 				
 				<field name="module_auto_height" type="list" class="gk_switch" default="1" label="MOD_TABS_MODULE_AUTO_HEIGHT" description="MOD_TABS_MODULE_AUTO_HEIGHT_DESC">
