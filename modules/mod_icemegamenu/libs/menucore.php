@@ -294,7 +294,7 @@ class IceMenuTree extends JTree
             
             $classStyle = "icesubMenu";
             if($depth==1) $classStyle = "icesubMenu";
-            $width =($width == 'auto') ? 'auto' : intval($width).'px';
+            $width =($width == 'auto') ? 'auto' : '100%'/*intval($width).'px'*/;
 
 			$this->_buffer .= '<ul class="'.$classStyle.' sub_level_'.$depth.'" style="width:'.$width.'">';
 			

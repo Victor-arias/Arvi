@@ -69,8 +69,9 @@
 	position: relative;
 }
 .gkTabsItem {
+	background: #2b382a;
 	left: -9999px;
-	padding: 20px 2px;
+	padding: 5px;
 	position: absolute;
 	top: 0;
 	width: 100%;

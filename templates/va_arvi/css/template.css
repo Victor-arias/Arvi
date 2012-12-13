@@ -74,6 +74,7 @@ footer
 }
 header
 {
+	background: url('../images/hoja.png') no-repeat right top;
 	font-family: 'homizioregular', sans-serif;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
@@ -109,7 +110,7 @@ nav ul#icemegamenu
 }
 nav ul#icemegamenu > li
 {
-	background: #FFF;
+	/*background: #FFF;*/
 	border-right: thin solid #c9c9c9;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
@@ -122,7 +123,7 @@ nav ul#icemegamenu > li
 }
 nav ul#icemegamenu > li > a
 {
-	background: url(../images/iconos_menu.png) no-repeat left top;
+	background: url(../images/iconos_menu.png) no-repeat left top #FFF;
 	color: #7a7a7a;
 	display: table-cell !important;
 	height: 30px;
@@ -183,11 +184,13 @@ nav ul#icemegamenu > li a:hover
 }
 nav ul#icemegamenu ul.icesubMenu {
 	background: #FFF;
+	left: 0;
 	list-style: none;
 	margin: 20px 0 0 0;
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
+	top: 130px;
 	z-index: 9999;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -278,10 +281,6 @@ nav ul#icemegamenu > li:hover > ul {
 {
 	background-color: #F0F0F0;
 	color: #7a7a7a;
-}
-.gkTabsItem
-{
-	background: #2b382a;
 }
 .gkTabsWrap.vertical ol
 {
@@ -386,7 +385,48 @@ nav ul#icemegamenu > li:hover > ul {
 {
 	background: rgba(255, 255, 255, 0.2);
 }
-
+.nspArt
+{
+	background: #FFF;
+	background-origin: padding-box;
+	background-clip: content-box;
+	height: 435px;
+	position: relative;
+}
+.nspArt .nspHeader,
+.nspArt .nspText
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 5px 20px 0;
+}
+.nspArt .nspImageWrapper
+{
+	padding: 20px 20px 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.nspArt .nspInfo
+{
+	box-sizing: border-box;
+	font-size: 80% !important;
+	margin: 0;
+	padding: 0 20px;
+}
+.nspArt .nspHeader a
+{
+	color: #4f4f4f;
+}
+.nspArt .readon
+{
+	background: #f0840a;
+	bottom: 10px;
+	color: #FFF;
+	margin: 10px;
+	padding: 7px;
+	position: absolute;
+	right: 10px;
+}
 #banner .navigation-container .prev-button
 {
 	left: -35px;
